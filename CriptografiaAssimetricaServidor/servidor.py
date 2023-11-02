@@ -60,7 +60,7 @@ class Ponte(threading.Thread):
             self.socket.sendall(b"FILE_NOT_FOUND")
 
 def main():
-    host = "192.168.0.101"  # Aceita conexões de qualquer endereço IP
+    host = "10.1.4.188"  # Aceita conexões de qualquer endereço IP
     port = 5000
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

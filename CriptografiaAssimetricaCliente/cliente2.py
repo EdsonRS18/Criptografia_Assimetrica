@@ -22,22 +22,17 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
+#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetrica/CriptografiaAssimetricaCliente/a.json
 
-#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetricaCliente/edson_chave_publica.pem
-#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetricaCliente/edson_chave_privada.pem
-#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetricaCliente/a.json
+#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetrica/CriptografiaAssimetricaCliente/nathan_chave_publica.pem
+#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetrica/CriptografiaAssimetricaCliente/nathan_chave_privada.pem
 
-#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetricaCliente/nathan_chave_privada.pem
-#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetricaCliente/nathan_chave_publica.pem
-
-
+#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetrica/CriptografiaAssimetricaCliente/chave_chave_publica.pem
+#C:/Users/edson/OneDrive/Documentos/CriptografiaAssimetrica/CriptografiaAssimetricaCliente/nathan_chave_privada.pem
 
 
 
 # Função para criar dicionários de criptografia e salvá-los com o nome fornecido pelo usuário
-
-
-
 
 
 def main():
@@ -46,7 +41,7 @@ def main():
     dicionarios = []
     dicionarios_iter = None
 
-    host = '192.168.0.101'  # Substitua isso pelo endereço IP ou nome do servidor
+    host = '10.1.4.188'  # Substitua isso pelo endereço IP ou nome do servidor
     port = 5000
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
